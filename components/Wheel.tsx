@@ -128,7 +128,7 @@ export const Wheel: React.FC<WheelProps> = ({ items, isSpinning, onSpinEnd, spin
       </div>
 
       {/* Wheel Container */}
-      <div className="w-full h-full rounded-full border-[8px] border-white dark:border-gray-800 shadow-2xl overflow-hidden bg-white dark:bg-gray-800 relative z-10">
+      <div className="w-full aspect-square rounded-full border-4 md:border-8 border-white dark:border-gray-800 shadow-2xl overflow-hidden bg-white dark:bg-gray-800 relative z-10">
         <div
           ref={wheelRef}
           className="w-full h-full transition-transform ease-out"

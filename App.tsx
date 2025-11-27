@@ -85,7 +85,7 @@ function App() {
         </header>
 
         {/* Main */}
-        <main className="flex flex-col items-center flex-1 px-4 py-8 gap-6 w-full">
+        <main className="flex flex-col items-center flex-1 px-4 py-8 gap-6 w-full transform scale-[0.8] origin-top md:scale-100">
 
           {/* List Selector */}
           <div className="w-full max-w-sm">
