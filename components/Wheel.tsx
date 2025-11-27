@@ -117,9 +117,9 @@ export const Wheel: React.FC<WheelProps> = ({ items, isSpinning, onSpinEnd, spin
   };
 
   return (
-    <div className="relative w-full max-w-md aspect-square mx-auto my-4 flex items-center justify-center">
+    <div className="relative w-full max-w-md aspect-square mx-auto my-4 flex items-center justify-center pl-16 md:pl-0">
       {/* Mascot Pointer (Left Side) */}
-      <div className="absolute left-[-150px] top-1/2 -translate-y-1/2 z-20 w-32 h-32 md:w-40 md:h-40 pointer-events-none">
+      <div className="absolute left-[-16px] md:left-[-150px] top-1/2 -translate-y-1/2 z-20 w-28 h-28 md:w-40 md:h-40 pointer-events-none">
         <img
           src={mascot}
           alt="Mascot Pointer"
